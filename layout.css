@@ -1,0 +1,165 @@
+/* CSS Document */
+
+body {
+font-family: Arial, Tahoma, Sans-serif, Helvetica, Verdana;
+font-size: 77%;
+text-align: center;
+background-color: #eeeeee;
+color: #000000;
+margin-top: 10px;
+padding: 0;
+}
+
+form{margin: 0;}
+
+p {padding: 2px; margin: 0;}
+
+h1,h2,h3,h4,h5 {padding: 2px; margin: 0;}
+
+a {text-decoration: none; color: #000099; background-color: inherit;}
+a:hover {text-decoration: underline;}
+
+.greenbox {
+background-color: #CCFFCC;
+color: inherit;
+border: 1px solid #00CC33;
+margin: 2px;
+padding: 5px;
+}
+
+img {margin: 3px;}
+
+.left {float:left;}
+.right {float:right;}
+.addbox {border: 3px solid #888888;}
+
+.menu {width: 140px;}
+.menu li {list-style-type: none; border-bottom: 1px dotted #888888;}
+.menu li a {background-image: url(images/b1.jpg); display: block; background-repeat: no-repeat; padding-left: 30px; padding-top: 5px; padding-bottom: 5px;}
+.menu li a:hover { text-decoration: none; background-image: url(images/b2.jpg); background-repeat: no-repeat;}
+.menu ul {margin: 0; padding: 0;}
+
+.yellowbox {
+background-color: #FFFF99;
+color: inherit;
+border: 1px solid #CCCC66;
+padding: 5px;
+margin: 2px;
+}
+
+.bluebox {
+background-color: #3399FF;
+border: 1px solid #0000ff;
+color: inherit;
+padding: 5px;
+margin: 2px;
+}
+
+.redbox {
+background-color: #FF6666;
+border: 1px solid #ff3333;
+color: inherit;
+padding: 5px;
+margin: 2px;
+}
+
+.splitright {
+width: 46%;
+float: right;
+overflow: hidden;
+}
+
+.splitleft {
+width: 46%;
+float: left;
+overflow: hidden;
+}
+
+.news {
+width: 130px;
+padding: 5px;
+border-bottom: 1px solid #888888;
+}
+
+/*page settings*/
+
+#page {
+width: 750px;
+border: 1px solid #888888;
+background-color: #FFFFFF;
+color: inherit;
+text-align: left;
+overflow: hidden;
+margin: auto;
+}
+
+/* Header */
+
+#header {
+background-repeat: no-repeat;
+border-top: 1px solid #888888;
+border-bottom: 1px solid #888888;
+width: 750px;
+height: 110px;
+padding: 0;
+margin: 0;
+overflow: hidden;
+}
+
+/* Top Settings */
+
+#top {
+width: 740px;
+padding: 5px;
+overflow: hidden;
+}
+
+#top h1{
+font-size: 1.6em;
+color: #3366FF;
+background-color: inherit;
+font-weight: bold;
+margin: 0;
+padding: 2px;
+}
+
+#top h3{
+font-size: 1em;
+color: #777777;
+background-color: inherit;
+margin: 0;
+padding: 2px;
+font-weight: bold;
+}
+
+#navigation {
+width: 140px;
+padding: 5px;
+float: left;
+overflow: hidden;
+}
+
+/* content */
+
+#content {
+width: 579px;
+padding: 5px;
+background-color: #FFFFFF;
+color: inherit;
+border-left: 1px solid #777777;
+overflow: hidden;
+}
+
+/*cbody*/
+
+/* Footer */
+
+#footer {
+background-color: #CCCCCC;
+color: inherit;
+width: 750px;
+text-align: center;
+border-top: 1px solid #888888;
+padding: 5px;
+clear: both;
+}
